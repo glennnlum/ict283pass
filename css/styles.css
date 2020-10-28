@@ -130,12 +130,15 @@ p {
 }
 
 #press {
-  background-color: #9437FF;
-  padding-bottom: 3%;
+  background-color: #f0f0f0;
+
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .press-logo {
-  width: 5%;
+  width: 50px;
   margin: 5px 20px 10px;
 }
 
