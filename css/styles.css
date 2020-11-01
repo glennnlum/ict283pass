@@ -18,6 +18,16 @@ p {
   line-height: 1.5;
 }
 
+.big-heading a
+{
+  color:white;
+}
+
+.big-heading a:hover
+{
+  text-decoration:none;
+}
+
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
