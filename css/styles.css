@@ -175,6 +175,7 @@ p {
 }
 
 /* CTA Section */
+
 .community iframe {
   box-shadow: 10px 10px 5px #000;
   border-radius: 7px;
@@ -199,4 +200,10 @@ p {
 
 .player {
   margin: 2rem;
+}
+
+#player-section
+{
+  color:white;
+  background-image:url("../images/playlist.jpg");
 }
