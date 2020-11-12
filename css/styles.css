@@ -201,9 +201,3 @@ p {
 .player {
   margin: 2rem;
 }
-
-#player-section
-{
-  color:white;
-  background-image:url("../images/playlist.jpg");
-}
