@@ -17,13 +17,11 @@ p {
   line-height: 1.5;
 }
 
-.big-heading a
-{
+.big-heading a {
   color:white;
 }
 
-.big-heading a:hover
-{
+.big-heading a:hover {
   text-decoration:none;
 }
 
@@ -184,8 +182,7 @@ p {
 
 /* Spotify Player */
 
-.spotify-player
-{
+.spotify-player {
   color:white;
   background-image:url(../images/visuals/c.gif);
 }
@@ -204,14 +201,18 @@ p {
     text-align: center;
   }
 
-  /* .title-image {
+  .title-image {
     position: static;
-    transform: rotate(0);
-  } */
+  }
 }
 
-video
-{
+@media (max-width: 512px) {
+  .big-heading {
+    font-size: 2rem;
+  }
+}
+
+video {
   box-shadow: 10px 10px 5px #000;
   border-radius: 7px;
 }
