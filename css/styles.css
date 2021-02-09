@@ -99,6 +99,7 @@ p {
 .intro {
   max-width: 480px;
   text-align: left;
+  hyphens: auto;
 }
 
 /* Testimonial/Carousel Section */
