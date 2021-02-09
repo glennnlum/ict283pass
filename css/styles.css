@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat";
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -168,6 +167,7 @@ p {
 
 .card {
   box-shadow: 2px 2px 2px lightgrey;
+  text-align: center;
 }
 
 .go-btn:hover {
