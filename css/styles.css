@@ -30,21 +30,6 @@ p {
   line-height: 1.5;
 }
 
-/* Containers */
-.container-fluid {
-  padding: 7% 15%;
-}
-
-/* Sections */
-.colored-section {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.white-section {
-  background-color: #f0f0f0;
-}
-
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -69,12 +54,6 @@ p {
   font-family: "Montserrat";
 }
 
-/* Buttons */
-.download-button {
-  font-size: 1rem;
-  margin: 5% 3% 5% 0;
-}
-
 /* Title Section */
 #title {
   background-color: #9437FF;
@@ -94,7 +73,7 @@ p {
   margin: 1rem;
 }
 
-/* Features Section */
+/* Intro/Features Section */
 #features {
   position: relative;
 }
@@ -171,6 +150,27 @@ p {
 
 .go-btn:hover {
   text-decoration: none;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #f0f0f0;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Buttons */
+.download-button {
+  font-size: 1rem;
+  margin: 5% 3% 5% 0;
 }
 
 /* CTA Section */
