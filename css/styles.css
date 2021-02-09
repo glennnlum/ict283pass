@@ -130,7 +130,7 @@ p {
   margin: 5px 20px 10px;
 }
 
-/* Pricing Section */
+/* Pricing/Sessions Section */
 #pricing {
   padding: 100px;
 }
@@ -244,6 +244,10 @@ p {
   .section-heading {
     font-size: 1.75rem;
     line-height: 1.5;
+  }
+
+  #pricing {
+    padding: 20px;
   }
 }
 
