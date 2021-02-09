@@ -104,7 +104,6 @@ p {
 /* Testimonial/Carousel Section */
 #testimonials {
   background-color: #9437FF;
-  /* text-align: center; */
 }
 
 .testimonial-text {
@@ -148,7 +147,6 @@ p {
 
 .card {
   box-shadow: 2px 2px 2px lightgrey;
-  /* text-align: center; */
 }
 
 .go-btn:hover {
@@ -167,7 +165,6 @@ p {
 
 /* Containers */
 .container-fluid {
-  /* padding: 7% 15%; */
   padding: 5rem 1rem;
 }
 
@@ -188,12 +185,7 @@ p {
   border-color: #d44950;
 }
 
-/* CTA Section */
-
-.container-fluid.community {
-  /* text-align: center; */
-}
-
+/* CTA/Community Section */
 .community iframe {
   box-shadow: 10px 10px 5px #000;
   border-radius: 7px;
@@ -206,7 +198,6 @@ video {
 }
 
 /* Spotify Player */
-
 .spotify-player {
   color:white;
   background-image:url(../images/visuals/c.gif);
@@ -217,9 +208,7 @@ video {
 }
 
 /* Footer Section */
-
 footer>.container-fluid {
-  /* text-align: center; */
   max-width: 640px;
 }
 
@@ -265,7 +254,6 @@ footer>.container-fluid {
   }
 
   .section-heading {
-    /* text-align: center; */
     font-size: 1.75rem;
     line-height: 1.5;
   }
