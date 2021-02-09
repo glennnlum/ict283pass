@@ -210,6 +210,11 @@ p {
   .big-heading {
     font-size: 2rem;
   }
+  
+  .section-heading {
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
 }
 
 video {
