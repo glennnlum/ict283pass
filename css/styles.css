@@ -91,6 +91,7 @@ p {
   width: 40%;
   position: absolute;
   right: 30%;
+  margin: 1rem;
 }
 
 /* Features Section */
@@ -231,7 +232,7 @@ p {
 
 /* Extra-small screen, iPhone5 and iPhone SE */
 @media (max-width: 400px) {
-    
+
   .navbar-brand {
     font-size: 1.2rem;
   }
