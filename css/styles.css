@@ -99,9 +99,10 @@ p {
   max-width: 480px;
 }
 
-/* Testimonial Section */
+/* Testimonial/Carousel Section */
 #testimonials {
   background-color: #9437FF;
+  text-align: center;
 }
 
 .testimonial-text {
@@ -230,6 +231,10 @@ p {
   #title .container-fluid {
     /* padding: 3% 15% 7%; */
     padding: 5px 15px 10px;
+  }
+
+  .navbar {
+    padding: 0 0 2rem;
   }
 
   .big-heading {
