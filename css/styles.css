@@ -196,6 +196,8 @@ p {
 
 video {
   max-width: 640px;
+  box-shadow: 10px 10px 5px #000;
+  border-radius: 7px;
 }
 
 /* Spotify Player */
@@ -247,7 +249,7 @@ footer>.container-fluid {
   }
 
   .navbar {
-    padding: 0 0 2rem;
+    padding: 0;
   }
 
   .big-heading {
@@ -282,10 +284,5 @@ footer>.container-fluid {
   .container-fluid {
     padding: 2rem 0rem;
   }
-}
-
-video {
-  box-shadow: 10px 10px 5px #000;
-  border-radius: 7px;
 }
 
