@@ -196,6 +196,7 @@ p {
   margin: 20px 10px;
 }
 
+/* Large screen */
 @media (max-width: 1200px) {
   #title {
     text-align: center;
@@ -206,14 +207,37 @@ p {
   }
 }
 
+/* Smartphone small screens */
 @media (max-width: 512px) {
+
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+
+  #title .container-fluid {
+    /* padding: 3% 15% 7%; */
+    padding: 5px 15px 10px;
+  }
+
   .big-heading {
     font-size: 2rem;
   }
-  
+
   .section-heading {
     font-size: 1.75rem;
     line-height: 1.5;
+  }
+}
+
+/* Extra-small screen, iPhone5 and iPhone SE */
+@media (max-width: 400px) {
+    
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  #title .container-fluid {
+    padding: 2  px;
   }
 }
 
