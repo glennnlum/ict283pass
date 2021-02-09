@@ -216,6 +216,10 @@ video {
 
 /* Footer Section */
 
+footer {
+  text-align: center;
+}
+
 .social-icon {
   margin: 20px 10px;
 }
