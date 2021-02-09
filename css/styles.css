@@ -96,7 +96,7 @@ p {
 }
 
 .intro {
-  max-width: 75%;
+  max-width: 480px;
 }
 
 /* Testimonial Section */
@@ -164,13 +164,25 @@ p {
 
 /* Containers */
 .container-fluid {
-  padding: 7% 15%;
+  /* padding: 7% 15%; */
+  padding: 5rem 1rem;
 }
 
 /* Buttons */
 .download-button {
   font-size: 1rem;
   margin: 5% 3% 5% 0;
+}
+
+.btn-outline-primary {
+  color: #d44950;
+  border-color: #d44950;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #d44950;
+  border-color: #d44950;
 }
 
 /* CTA Section */
@@ -238,7 +250,7 @@ p {
   }
 
   #title .container-fluid {
-    padding: 2  px;
+    padding: 2px;
   }
 }
 
