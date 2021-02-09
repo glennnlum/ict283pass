@@ -188,10 +188,19 @@ p {
 
 /* CTA Section */
 
+.container-fluid.community {
+  text-align: center;
+}
+
 .community iframe {
   box-shadow: 10px 10px 5px #000;
   border-radius: 7px;
   margin-bottom: 2.5rem;
+  max-width: 450px;
+}
+
+video {
+  max-width: 640px;
 }
 
 /* Spotify Player */
@@ -206,6 +215,7 @@ p {
 }
 
 /* Footer Section */
+
 .social-icon {
   margin: 20px 10px;
 }
@@ -218,6 +228,12 @@ p {
 
   .title-image {
     position: static;
+  }
+}
+
+@media (max-width: 720px) {
+  video {
+    width: 100%;
   }
 }
 
@@ -248,6 +264,10 @@ p {
 
   #pricing {
     padding: 20px;
+  }
+
+  .community iframe {
+    width: 100%;
   }
 }
 
