@@ -99,11 +99,17 @@ p {
 .intro {
   max-width: 480px;
   text-align: left;
+  hyphens: auto;
 }
 
 /* Testimonial/Carousel Section */
 #testimonials {
   background-color: #9437FF;
+}
+
+#testimonial-carousel {
+  margin: auto;
+  max-width: 1024px;
 }
 
 .testimonial-text {
