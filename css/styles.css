@@ -63,8 +63,8 @@ p {
 }
 
 #title .container-fluid {
-    max-width: 1024px;
-  }
+  max-width: 1024px;
+}
 
 /* Title Image */
 .title-image {
@@ -254,8 +254,8 @@ footer>.container-fluid {
     font-size: 1.5rem;
   }
 
-  .container-fluid {
-    padding: 2rem 1rem;
+  #title > .container-fluid {
+    padding-top: 0rem;
   }
 
   .navbar {
