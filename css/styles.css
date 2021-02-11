@@ -262,6 +262,10 @@ footer>.container-fluid {
     padding: 0;
   }
 
+  .nav-link {
+    font-size: 1.5em;
+  }
+
   .big-heading {
     font-size: 2.5rem;
   }
