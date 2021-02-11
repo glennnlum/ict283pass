@@ -142,6 +142,11 @@ p {
   padding: 100px;
 }
 
+.white-section .sessions {
+  margin: auto;
+  max-width: 1024px;
+}
+
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
