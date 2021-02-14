@@ -63,8 +63,8 @@ p {
 }
 
 #title .container-fluid {
-    max-width: 1024px;
-  }
+  max-width: 1024px;
+}
 
 /* Title Image */
 .title-image {
@@ -140,6 +140,11 @@ p {
 /* Pricing/Sessions Section */
 #pricing {
   padding: 100px;
+}
+
+.white-section .sessions {
+  margin: auto;
+  max-width: 1024px;
 }
 
 .price-text {
@@ -249,16 +254,21 @@ footer>.container-fluid {
     font-size: 1.5rem;
   }
 
-  .container-fluid {
-    padding: 2rem 1rem;
+  #title > .container-fluid {
+    padding-top: 0rem;
   }
 
   .navbar {
     padding: 0;
   }
 
+  .nav-link {
+    font-size: 1.5em;
+  }
+
   .big-heading {
     font-size: 2.5rem;
+    margin: 2rem;
   }
 
   .section-heading {
